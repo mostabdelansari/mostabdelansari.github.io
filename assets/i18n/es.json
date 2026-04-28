@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home":     "Inicio",
+    "about":    "Sobre mí",
+    "skills":   "Habilidades",
+    "projects": "Proyectos",
+    "resume":   "Currículum",
+    "contact":  "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "tagline":  "Backend Developer con +2 años de experiencia en .NET y Azure desarrollando APIs y sistemas distribuidos. Especializado en rendimiento, arquitecturas event-driven y entornos cloud de alta concurrencia.",
+    "hire":     "Contáctame",
+    "work":     "Ver proyectos"
+  },
+  "about": {
+    "title":        "Sobre mí",
+    "subtitle":     "Un poco sobre quién soy",
+    "heading":      "Hola, soy",
+    "bio1":         "Backend Developer con +2 años de experiencia en .NET y Azure desarrollando APIs y sistemas distribuidos. Especializado en rendimiento, arquitecturas event-driven y entornos cloud de alta concurrencia.",
+    "bio2":         "Experiencia en CI/CD, buenas prácticas y metodologías ágiles. Me adapto rápido a nuevos contextos y disfruto resolviendo problemas con criterio y sin perder de vista el detalle.",
+    "availability": "Abierto a oportunidades",
+    "download":     "Descargar CV"
+  },
+  "skills": {
+    "title":    "Habilidades",
+    "subtitle": "Tecnologías con las que trabajo"
+  },
+  "projects": {
+    "title":    "Proyectos",
+    "subtitle": "Una selección de lo que he construido",
+    "github":   "GitHub",
+    "live":     "Demo en vivo"
+  },
+  "resume": {
+    "title":       "Currículum",
+    "subtitle":    "Mi experiencia y formación",
+    "experience":  "Experiencia",
+    "education":   "Formación",
+    "download":    "Descargar CV completo",
+    "certifications": "Certificaciones",
+    "verify":      "Ver credencial →",
+    "jobs": [
+      {
+        "role":        "Back-end Developer",
+        "company":     "Raona · Barcelona",
+        "period":      "12/2023 – Presente",
+        "description": "APIs RESTful y microservicios con ASP.NET Core (.NET 6/8). Optimización con LINQ, EF Core y Cosmos DB. Procesamiento asíncrono con Azure Functions y Azure Queues. Seguridad con JWT y OWASP. Testing con xUnit y Moq. CI/CD con Azure DevOps y monitorización con Application Insights."
+      },
+      {
+        "role":        "Full-stack Developer",
+        "company":     "Soficat Xerox · Barcelona",
+        "period":      "09/2023 – 12/2023",
+        "description": "APIs REST con PHP 8 y Symfony 6. Diseño de bases de datos MySQL con Doctrine ORM. Autenticación JWT. Frontend responsive con Twig y Bootstrap. Metodología ágil Scrum."
+      }
+    ],
+    "studies": [
+      { "degree": "Inglés B2 – Cambridge First",              "institution": "Academia Challenge",     "period": "10/2025 – Presente" },
+      { "degree": "CFGS Desarrollo de Aplicaciones Web",      "institution": "Ins Provençana",         "period": "09/2021 – 06/2023" },
+      { "degree": "Bootcamp Java & SQL (215h)",               "institution": "Fundación Esplai – ICT", "period": "09/2019 – 12/2019" },
+      { "degree": "Bachillerato Social LOE",                  "institution": "Ins Eduard Fontseré",    "period": "09/2012 – 05/2014" }
+    ]
+  },
+  "contact": {
+    "title":       "Contacto",
+    "subtitle":    "Trabajemos juntos",
+    "name":        "Nombre",
+    "email":       "Correo electrónico",
+    "message":     "Mensaje",
+    "send":        "Enviar mensaje",
+    "placeholder": {
+      "name":    "Tu nombre",
+      "email":   "tu@correo.com",
+      "message": "Cuéntame sobre tu proyecto..."
+    },
+    "success": "¡Mensaje enviado! Me pondré en contacto pronto.",
+    "errors": {
+      "name":    "El nombre es obligatorio",
+      "email":   "Correo electrónico inválido",
+      "message": "El mensaje es obligatorio"
+    }
+  }
+}
