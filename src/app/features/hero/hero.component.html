@@ -1,0 +1,16 @@
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="greeting">{{ 'hero.greeting' | translate }}</p>
+    <h1 class="name">Mostafa Abdel-illah</h1>
+    <h2 class="title">Backend Developer .NET & Azure</h2>
+    <p class="tagline">{{ 'hero.tagline' | translate }}</p>
+    <div class="cta">
+      <button class="btn-primary" (click)="scrollTo('contact')">
+        ✉ {{ 'hero.hire' | translate }}
+      </button>
+      <button class="btn-outline" (click)="scrollTo('projects')">
+        💼 {{ 'hero.work' | translate }}
+      </button>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,45 @@
+<section class="section">
+  <h2 class="section-title">{{ 'contact.title' | translate }}</h2>
+  <p class="section-subtitle">{{ 'contact.subtitle' | translate }}</p>
+
+  <div class="contact-wrapper">
+    <div class="contact-info">
+      <div class="info-item">📧 <span>mostabdelansari&#64;gmail.com</span></div>
+      <div class="info-item">💼 <a href="https://linkedin.com/in/mostabdelansari" target="_blank">LinkedIn</a></div>
+      <div class="info-item">💻 <a href="https://github.com/mostabdelansari" target="_blank">GitHub</a></div>
+    </div>
+
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="contact-form" novalidate>
+
+      <div class="field">
+        <label>{{ 'contact.name' | translate }}</label>
+        <input type="text" formControlName="name" [placeholder]="'contact.placeholder.name' | translate" />
+        <span class="error" *ngIf="form.get('name')?.invalid && form.get('name')?.touched">
+          {{ 'contact.errors.name' | translate }}
+        </span>
+      </div>
+
+      <div class="field">
+        <label>{{ 'contact.email' | translate }}</label>
+        <input type="email" formControlName="email" [placeholder]="'contact.placeholder.email' | translate" />
+        <span class="error" *ngIf="form.get('email')?.invalid && form.get('email')?.touched">
+          {{ 'contact.errors.email' | translate }}
+        </span>
+      </div>
+
+      <div class="field">
+        <label>{{ 'contact.message' | translate }}</label>
+        <textarea formControlName="message" rows="5" [placeholder]="'contact.placeholder.message' | translate"></textarea>
+        <span class="error" *ngIf="form.get('message')?.invalid && form.get('message')?.touched">
+          {{ 'contact.errors.message' | translate }}
+        </span>
+      </div>
+
+      <div class="success" *ngIf="sent">{{ 'contact.success' | translate }}</div>
+
+      <button class="btn-primary" type="submit" [disabled]="form.invalid">
+        ✉ {{ 'contact.send' | translate }}
+      </button>
+    </form>
+  </div>
+</section>

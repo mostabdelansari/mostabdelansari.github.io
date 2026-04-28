@@ -1,0 +1,171 @@
+.cv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+
+  @media (max-width: 768px) { grid-template-columns: 1fr; }
+}
+
+.cv-col {
+  .col-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 28px;
+    color: #1a1a2e;
+  }
+}
+
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    bottom: 0;
+    width: 2px;
+    background: #e3f2fd;
+  }
+}
+
+.timeline-item {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 28px;
+  position: relative;
+
+  &:last-child { padding-bottom: 0; }
+
+  .dot {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    border-radius: 50%;
+    background: #1976d2;
+    margin-top: 4px;
+    z-index: 1;
+    box-shadow: 0 0 0 4px #e3f2fd;
+  }
+
+  .content {
+    .period {
+      font-size: 0.78rem;
+      color: #1976d2;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin: 4px 0 2px;
+    }
+
+    .company {
+      font-size: 0.88rem;
+      color: #1976d2;
+      font-weight: 500;
+      margin-bottom: 6px;
+    }
+
+    .desc {
+      font-size: 0.88rem;
+      color: #666;
+      line-height: 1.7;
+    }
+  }
+}
+
+.certifications {
+  margin-top: 56px;
+
+  .col-title {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.cert-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #e8edf5;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &:hover {
+    box-shadow: 0 8px 24px rgba(25,118,210,0.15);
+    transform: translateY(-2px);
+
+    .cert-link { color: #1565c0; }
+  }
+}
+
+.cert-badge {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.cert-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  .cert-code {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #1976d2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .cert-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    line-height: 1.3;
+  }
+
+  .cert-issuer {
+    font-size: 0.82rem;
+    color: #666;
+  }
+
+  .cert-issued {
+    font-size: 0.82rem;
+    color: #888;
+  }
+
+  .cert-link {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #1976d2;
+    margin-top: 4px;
+    transition: color 0.2s;
+  }
+}
+
+.cv-download {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}

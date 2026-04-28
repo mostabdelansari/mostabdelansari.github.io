@@ -1,0 +1,61 @@
+<section class="section">
+  <h2 class="section-title">{{ 'resume.title' | translate }}</h2>
+  <p class="section-subtitle">{{ 'resume.subtitle' | translate }}</p>
+
+  <div class="cv-grid">
+    <div class="cv-col">
+      <h3 class="col-title">💼 {{ 'resume.experience' | translate }}</h3>
+      <div class="timeline">
+        <div class="timeline-item" *ngFor="let e of experiences">
+          <div class="dot"></div>
+          <div class="content">
+            <span class="period">{{ e.period }}</span>
+            <h4>{{ e.role }}</h4>
+            <p class="company">{{ e.company }}</p>
+            <p class="desc">{{ e.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cv-col">
+      <h3 class="col-title">🎓 {{ 'resume.education' | translate }}</h3>
+      <div class="timeline">
+        <div class="timeline-item" *ngFor="let e of education">
+          <div class="dot"></div>
+          <div class="content">
+            <span class="period">{{ e.period }}</span>
+            <h4>{{ e.degree }}</h4>
+            <p class="company">{{ e.institution }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cv-download">
+    <button class="btn-primary" (click)="downloadCV()">
+      ⬇ {{ 'resume.download' | translate }}
+    </button>
+  </div>
+
+  <div class="certifications">
+    <h3 class="col-title">🎓 {{ 'resume.certifications' | translate }}</h3>
+    <div class="cert-grid">
+      <a
+        *ngFor="let cert of certifications"
+        [href]="cert.url"
+        target="_blank"
+        class="cert-card">
+        <img [src]="cert.badge" [alt]="cert.name" class="cert-badge" />
+        <div class="cert-info">
+          <span class="cert-code">{{ cert.code }}</span>
+          <h4 class="cert-name">{{ cert.name }}</h4>
+          <p class="cert-issuer">{{ cert.issuer }}</p>
+          <p class="cert-issued">📅 {{ cert.issued }}</p>
+          <span class="cert-link">Ver credencial →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>

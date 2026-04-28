@@ -1,0 +1,22 @@
+<section class="section">
+  <h2 class="section-title">{{ 'projects.title' | translate }}</h2>
+  <p class="section-subtitle">{{ 'projects.subtitle' | translate }}</p>
+
+  <div class="projects-grid">
+    <div class="card" *ngFor="let p of projects">
+      <h3 class="card__title">{{ p.title }}</h3>
+      <p class="card__desc">{{ p.description }}</p>
+      <div class="card__chips">
+        <span class="chip" *ngFor="let t of p.technologies">{{ t }}</span>
+      </div>
+      <div class="card__actions">
+        <a *ngIf="p.githubUrl" [href]="p.githubUrl" target="_blank" class="btn-outline">
+          GitHub
+        </a>
+        <a *ngIf="p.liveUrl" [href]="p.liveUrl" target="_blank" class="btn-primary">
+          Live
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

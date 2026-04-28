@@ -1,0 +1,55 @@
+<header class="navbar">
+
+  <span class="brand">Mostafa<span class="dot">.</span></span>
+
+  <!-- Desktop links -->
+  <nav class="nav-links">
+    <button
+      *ngFor="let link of links"
+      class="nav-btn"
+      (click)="scrollTo(link.anchor)">
+      {{ link.key | translate }}
+    </button>
+  </nav>
+
+  <!-- Language selector -->
+  <div class="lang-wrap">
+    <button class="lang-btn" (click)="langMenuOpen = !langMenuOpen">
+      <img [src]="currentLang.flag" [alt]="currentLang.code" class="flag-img" />
+      {{ currentLang.code | uppercase }} ▾
+    </button>
+    <div class="lang-dropdown" *ngIf="langMenuOpen">
+      <button
+        *ngFor="let lang of langs"
+        class="lang-option"
+        (click)="setLang(lang.code)">
+        <img [src]="lang.flag" [alt]="lang.code" class="flag-img" />
+        {{ lang.label }}
+      </button>
+    </div>
+  </div>
+
+  <!-- Hamburger -->
+  <button class="hamburger" (click)="menuOpen = !menuOpen">
+    <span></span><span></span><span></span>
+  </button>
+
+</header>
+
+<!-- Mobile menu -->
+<nav class="mobile-menu" *ngIf="menuOpen">
+  <button
+    *ngFor="let link of links"
+    class="mobile-btn"
+    (click)="scrollTo(link.anchor)">
+    {{ link.key | translate }}
+  </button>
+  <div class="mobile-divider"></div>
+  <button
+    *ngFor="let lang of langs"
+    class="mobile-lang"
+    (click)="setLang(lang.code); menuOpen = false">
+    <img [src]="lang.flag" [alt]="lang.code" class="flag-img" />
+    {{ lang.label }}
+  </button>
+</nav>
