@@ -79,5 +79,11 @@
       "email":   "Correo electrónico inválido",
       "message": "El mensaje es obligatorio"
     }
+  },
+  "languages": {
+    "english": "Inglés",
+    "spanish": "Español",
+    "catalan": "Catalán",
+    "arabic":  "Árabe"
   }
 }

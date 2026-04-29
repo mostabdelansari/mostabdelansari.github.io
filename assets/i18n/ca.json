@@ -79,5 +79,11 @@
       "email":   "Correu electrònic invàlid",
       "message": "El missatge és obligatori"
     }
+  },
+  "languages": {
+    "english": "Anglès",
+    "spanish": "Castella",
+    "catalan": "Català",
+    "arabic":  "Àrab"
   }
 }

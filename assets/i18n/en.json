@@ -33,13 +33,13 @@
     "live":     "Live Demo"
   },
   "resume": {
-    "title":       "Resume",
-    "subtitle":    "My experience & education",
-    "experience":  "Experience",
-    "education":   "Education",
-    "download":    "Download Full CV",
+    "title":          "Resume",
+    "subtitle":       "My experience & education",
+    "experience":     "Experience",
+    "education":      "Education",
+    "download":       "Download Full CV",
     "certifications": "Certifications",
-    "verify":      "View credential →",
+    "verify":         "View credential →",
     "jobs": [
       {
         "role":        "Back-end Developer",
@@ -79,5 +79,11 @@
       "email":   "Invalid email",
       "message": "Message is required"
     }
+  },
+  "languages": {
+    "english": "English",
+    "spanish": "Spanish",
+    "catalan": "Catalan",
+    "arabic":  "Arabic"
   }
 }
