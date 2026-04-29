@@ -16,6 +16,7 @@
   "about": {
     "title":        "Sobre mí",
     "subtitle":     "Un poco sobre quién soy",
+        "section":      "Perfil",
     "heading":      "Hola, soy",
     "bio1":         "Backend Developer con +2 años de experiencia en .NET y Azure desarrollando APIs y sistemas distribuidos. Especializado en rendimiento, arquitecturas event-driven y entornos cloud de alta concurrencia.",
     "bio2":         "Experiencia en CI/CD, buenas prácticas y metodologías ágiles. Me adapto rápido a nuevos contextos y disfruto resolviendo problemas con criterio y sin perder de vista el detalle.",
@@ -24,17 +25,20 @@
   },
   "skills": {
     "title":    "Habilidades",
-    "subtitle": "Tecnologías con las que trabajo"
+    "subtitle": "Tecnologías con las que trabajo",
+        "section":  "Stack tecnológico"
   },
   "projects": {
     "title":    "Proyectos",
     "subtitle": "Una selección de lo que he construido",
+        "section":  "Portafolio",
     "github":   "GitHub",
     "live":     "Demo en vivo"
   },
   "resume": {
     "title":       "Currículum",
     "subtitle":    "Mi experiencia y formación",
+     "section":     "Conocimientos",
     "experience":  "Experiencia",
     "education":   "Formación",
     "download":    "Descargar CV completo",
@@ -64,6 +68,7 @@
   "contact": {
     "title":       "Contacto",
     "subtitle":    "Trabajemos juntos",
+        "section":  "Ponte en contacto",
     "name":        "Nombre",
     "email":       "Correo electrónico",
     "message":     "Mensaje",
@@ -85,5 +90,9 @@
     "spanish": "Español",
     "catalan": "Catalán",
     "arabic":  "Árabe"
+  },
+  "common": {
+    "verifyOn": "Verificar en",
+    "viewCredential": "Ver credencial"
   }
 }
