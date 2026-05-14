@@ -95,6 +95,8 @@
   },
   "common": {
     "verifyOn": "Verificar en",
-    "viewCredential": "Ver credencial"
+    "viewCredential": "Ver credencial",
+    "scroll_down": "Bajar",
+    "scroll_up": "Inicio"
   }
 }

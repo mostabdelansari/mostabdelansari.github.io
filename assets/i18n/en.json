@@ -95,6 +95,8 @@
   },
     "common": {
     "verifyOn": "Verify on",
-    "viewCredential": "View credential"
+    "viewCredential": "View credential",
+    "scroll_down": "Scroll Down",
+    "scroll_up": "Top"
   }
 }
