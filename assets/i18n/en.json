@@ -9,7 +9,7 @@
   },
   "hero": {
     "greeting": "Hello, I'm",
-    "tagline":  "Backend Developer with 2+ years of experience in .NET and Azure building APIs and distributed systems. Specialized in performance, event-driven architectures and high-concurrency cloud environments.",
+    "tagline":  "Specialized in .NET & Azure. Building scalable APIs and distributed systems with a focus on performance and cloud architecture.",
     "hire":     "Contact me",
     "work":     "View projects"
   },
