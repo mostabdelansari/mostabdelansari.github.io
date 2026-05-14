@@ -11,7 +11,9 @@
     "greeting": "Hola, soc",
     "tagline":  "Especialitzat en .NET i Azure. Desenvolupament d'APIs escalables i sistemes distribuïts amb enfocament en rendiment i arquitectura cloud.",
     "hire":     "Contacta'm",
-    "work":     "Veure projectes"
+    "work":     "Veure projectes",
+    "expertise": "Expert en",
+    "contact_now": "CONTACTAR ARA · CONTACTAR ARA ·"
   },
   "about": {
     "title":        "Sobre mi",

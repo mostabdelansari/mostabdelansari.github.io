@@ -11,7 +11,9 @@
     "greeting": "Hello, I'm",
     "tagline":  "Specialized in .NET & Azure. Building scalable APIs and distributed systems with a focus on performance and cloud architecture.",
     "hire":     "Contact me",
-    "work":     "View projects"
+    "work":     "View projects",
+    "expertise": "Expertise in",
+    "contact_now": "CONTACT NOW · CONTACT NOW ·"
   },
   "about": {
     "title":        "About Me",

@@ -11,7 +11,9 @@
     "greeting": "Hola, soy",
     "tagline":  "Especializado en .NET y Azure. Desarrollo de APIs escalables y sistemas distribuidos con enfoque en rendimiento y arquitectura cloud.",
     "hire":     "Contáctame",
-    "work":     "Ver proyectos"
+    "work":     "Ver proyectos",
+    "expertise": "Experto en",
+    "contact_now": "CONTACTAR AHORA · CONTACTAR AHORA ·"
   },
   "about": {
     "title":        "Sobre mí",
