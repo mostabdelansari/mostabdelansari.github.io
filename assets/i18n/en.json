@@ -9,7 +9,7 @@
   },
   "hero": {
     "greeting": "Hello, I'm",
-    "tagline":  "Specialized in .NET & Azure. Building scalable APIs and distributed systems with a focus on performance and cloud architecture.",
+    "tagline":  "Expert in scalable APIs and high-performance distributed systems with cloud architecture.",
     "hire":     "Contact me",
     "work":     "View projects",
     "expertise": "Expertise in",
@@ -98,5 +98,10 @@
     "viewCredential": "View credential",
     "scroll_down": "Scroll Down",
     "scroll_up": "Top"
+  },
+  "footer": {
+    "built_with": "Built",
+    "by": "by",
+    "tagline": "Software Developer based in Spain"
   }
 }

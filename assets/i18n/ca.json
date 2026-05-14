@@ -9,7 +9,7 @@
   },
   "hero": {
     "greeting": "Hola, soc",
-    "tagline":  "Especialitzat en .NET i Azure. Desenvolupament d'APIs escalables i sistemes distribuïts amb enfocament en rendiment i arquitectura cloud.",
+    "tagline":  "Especialista en APIs escalables i sistemes distribuïts d'alt rendiment i arquitectura cloud.",
     "hire":     "Contacta'm",
     "work":     "Veure projectes",
     "expertise": "Expert en",
@@ -98,5 +98,10 @@
     "viewCredential": "Veure credencial",
     "scroll_down": "Baixar",
     "scroll_up": "Inici"
+  },
+  "footer": {
+    "built_with": "Construït",
+    "by": "per",
+    "tagline": "Software Developer situat a Espanya"
   }
 }

@@ -9,7 +9,7 @@
   },
   "hero": {
     "greeting": "Hola, soy",
-    "tagline":  "Especializado en .NET y Azure. Desarrollo de APIs escalables y sistemas distribuidos con enfoque en rendimiento y arquitectura cloud.",
+    "tagline":  "Especialista en APIs escalables y sistemas distribuidos de alto rendimiento y arquitectura cloud.",
     "hire":     "Contáctame",
     "work":     "Ver proyectos",
     "expertise": "Experto en",
@@ -98,5 +98,10 @@
     "viewCredential": "Ver credencial",
     "scroll_down": "Bajar",
     "scroll_up": "Inicio"
+  },
+  "footer": {
+    "built_with": "Construido",
+    "by": "por",
+    "tagline": "Software Developer ubicado en España"
   }
 }
