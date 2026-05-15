@@ -8,7 +8,7 @@
     "contact":  "Contact"
   },
   "hero": {
-    "greeting": "Hello, I'm",
+    "greeting": "Hi, pleasure! I'm",
     "tagline":  "Expert in scalable APIs and high-performance distributed systems with cloud architecture.",
     "hire":     "Contact me",
     "work":     "View projects",
